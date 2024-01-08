@@ -7,7 +7,7 @@
 .banner {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Banner\ Image.png");
     background-repeat: no-repeat;
-    width: 80%;
+    width: 100%;
     max-width: 1300px;
     margin: 50px auto 60px;
     border-radius: 16px;
@@ -71,7 +71,7 @@
 .section2 {
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Vectorrr.png");
     background-repeat: no-repeat;
-    width: 80%;
+    width: 100%;
     max-width: 1300px;
     margin: 120px auto 60px;
     border-radius: 15px;
@@ -133,7 +133,7 @@
 /* Place,Date,Time  Section related styles */
 .section3 {
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    width: 80%;
+    width: 100%;
     max-width: 1300px;
     margin: 60px auto 60px;
     text-align: center;
@@ -165,7 +165,7 @@
     margin-bottom: 100px;
 }
 
-.section3-button button {
+.section3-button>button {
     padding: 16px 32px;
     border: none;
     border-radius: 8px;
@@ -180,8 +180,9 @@
     text-transform: uppercase;
     cursor: pointer;
 }
-button:hover{
-    background-color:cyan;
+
+button:hover {
+    background-color: cyan;
     color: black;
 }
 
@@ -189,3 +190,45 @@ button:hover{
 
 
 /* optional section */
+
+/* section 4 related styles */
+.section4 {
+    width: 100%;
+    max-width: 1300px;
+    margin: 60px auto 60px;
+}
+
+.section4-text {
+    padding-bottom: 20px;
+}
+
+.section4-sub-head {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.section4-head {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.section4-discribtion {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.section4-img * {
+    margin-right: 5px;
+}
+
+.section4-img-line1 {
+    margin-bottom: 6px;
+}
