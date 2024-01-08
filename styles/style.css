@@ -1,0 +1,137 @@
+/* font family */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Merriweather:wght@400;700;900&display=swap');
+
+/* banner related style */
+.banner {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("/resources/Banner\ Image.png");
+    background-repeat: no-repeat;
+    width: 80%;
+    max-width: 1300px;
+    margin: 50px auto 60px;
+    border-radius: 16px;
+
+}
+
+.banner-text {
+    padding: 100px 330px 150px;
+}
+
+.banner-sub-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+/* main related style */
+
+/* 60% off HAPPY NEW YEAR */
+.section1-text {
+    text-align: center;
+}
+
+.section1-img {
+    text-align: center;
+}
+
+.section1-first-head {
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-top: 120px;
+}
+
+.section1-second-head {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.section1-third-head {
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+/* midnight party section styles*/
+.section2 {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("/resources/Vectorrr.png");
+    background-repeat: no-repeat;
+    width: 80%;
+    max-width: 1300px;
+    margin: 120px auto 60px;
+    border-radius: 15px;
+
+}
+.section2-text{
+    padding-left: 20px;
+}
+.text-image {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.section2-head {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    width: 600px;
+}
+
+.section2-discribtion {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 670px;
+}
+
+.section2-button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px;
+    margin-left: 50px;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.section2-button:hover{
+    background-color:bisque;
+    color: black;
+}
+
+/* Place,Date,Time  Section related styles */
+.section3{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 80%;
+    max-width: 1300px;
+    margin: 60px auto 60px;
+    text-align: center;
+}
