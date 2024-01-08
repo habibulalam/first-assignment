@@ -5,7 +5,7 @@
 
 /* banner related style */
 .banner {
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("/resources/Banner\ Image.png");
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Banner\ Image.png");
     background-repeat: no-repeat;
     width: 80%;
     max-width: 1300px;
@@ -69,7 +69,7 @@
 
 /* midnight party section styles*/
 .section2 {
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("/resources/Vectorrr.png");
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Vectorrr.png");
     background-repeat: no-repeat;
     width: 80%;
     max-width: 1300px;
@@ -77,9 +77,11 @@
     border-radius: 15px;
 
 }
-.section2-text{
+
+.section2-text {
     padding-left: 20px;
 }
+
 .text-image {
     display: flex;
     justify-content: center;
@@ -122,16 +124,68 @@
     border: none;
     border-radius: 5px;
 }
-.section2-button:hover{
-    background-color:bisque;
+
+.section2-button:hover {
+    background-color: bisque;
     color: black;
 }
 
 /* Place,Date,Time  Section related styles */
-.section3{
+.section3 {
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     width: 80%;
     max-width: 1300px;
     margin: 60px auto 60px;
     text-align: center;
+    border-radius: 15px;
 }
+
+.section3-text {
+    padding-top: 100px;
+    margin-bottom: 40px;
+}
+
+.section3-head {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.section3-head span {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.section3-button {
+    margin-bottom: 100px;
+}
+
+.section3-button button {
+    padding: 16px 32px;
+    border: none;
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+button:hover{
+    background-color:cyan;
+    color: black;
+}
+
+/* bonus section */
+
+
+/* optional section */
