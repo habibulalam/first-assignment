@@ -195,12 +195,15 @@ button:hover {
     justify-content: space-between;
     align-items: center;
 }
-.bonus-first{
+
+.bonus-first {
     padding-right: 10px;
 }
-.bonus-last{
+
+.bonus-last {
     padding-left: 80px;
 }
+
 .bonus-img img {
     border: 15px solid #F00;
     border-radius: 463px;
@@ -227,7 +230,8 @@ button:hover {
     font-size: 48px;
     font-weight: 700;
 }
-.bonus-last p{
+
+.bonus-last p {
     width: 290px;
 }
 
@@ -240,7 +244,82 @@ button:hover {
 
 
 /* optional section */
+.optional {
+    width: 100%;
+    max-width: 1300px;
+    max-height: 980px;
+    margin: 60px auto 60px;
+    text-align: center;
+    position: relative;
+}
 
+.optional-text h3 {
+    text-align: center;
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: -30px;
+}
+
+.optional-text h1 {
+    text-align: center;
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.optional-text span {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.optional-text p {
+    text-align: center;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+.optional-img{
+    height: 662px;
+}
+.top{
+    position: relative;
+    height: 433px;
+}
+.bottom{
+    height: 229px;
+}
+
+.discount{
+    position: relative;
+    left: 200px;
+    top: 80px;
+
+}
+.lady{
+    position: absolute;
+    right: 0;
+    z-index: -1;
+
+}
+.gift{
+    position: absolute;
+    margin-top: -430px;
+    margin-left: 20px;
+
+}
+.red{
+    width: 1300px;
+}
 
 
 /* section 4 related styles */
@@ -291,7 +370,7 @@ button:hover {
     transition: 1s;
 }
 
-/* section 5 realted styles */
+/* section 5 related styles */
 .section5 {
     background: rgba(255, 0, 0, 0.05);
     width: 100%;
